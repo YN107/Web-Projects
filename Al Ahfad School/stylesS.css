@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(imgs/school.jpg) no-repeat;
+  background-size: cover;
+}
+
+.content {
+  font-weight: 900;
+  color: #2b2d97;
+  font-size: 40px;
+  width: 80%;
+  margin: 0px 60px;
+}
+
+.content h2 {
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.content p {
+  letter-spacing: 1px;
+  font-size: 20px;
+  width: 500px;
+  font-weight: 500;
+  color: #000;
+  background-color: rgba(211, 211, 211, 0.5);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+header {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  color: #2b2d97;
+  padding: 15px 50px;
+  transform: scale(1.6);
+  transition: all 0.8s ease;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #2b2d97;
+  transition: all 0.8s ease;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  color: #9597f6;
+}
+
+.logo:hover {
+  transform: scale(1.7);
+}
+
+.main-btn {
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #2b2d97;
+  border-radius: 20px;
+  transition: all 0.8s ease;
+  padding: 15px;
+}
+
+.main-btn:hover {
+  font-size: 23px;
+  background-color: #575895;
+}
+
+.mn {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.mn .icons {
+  padding: 0 20px;
+}
+
+.mn .icons i {
+  padding-right: 10px;
+  font-size: 30px;
+  color: #2b2d97;
+  transition: all 0.8s ease;
+}
+
+.mn .icons i:hover {
+  font-size: 36px;
+}
+
+.AcademicTrack {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.internatioal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 200px;
+  background-color: aquamarine;
+}
+
+.internatioal i {
+  color: #000;
+
+  font-size: 100px;
+  padding: 20px 40px;
+  padding-right: 60px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 200px;
+  background-color: lightcoral;
+}
+
+.languages i {
+  color: #000;
+
+  font-size: 100px;
+  padding: 20px 40px;
+  padding-right: 60px;
+}
+
+.arabic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 200px;
+  justify-content: flex-end;
+  background-color: #fdfdb2;
+}
+
+.arabic i {
+  color: #000;
+  font-size: 100px;
+  padding: 20px 40px;
+  padding-right: 60px;
+}
+
+.text h3 {
+  color: #000;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+}
+
+.text p {
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  color: #000;
+}
+
+.playground {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.pla-tit-p,
+pol-tit-p {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+
+}
+
+.A-tit {
+  font-size: 30px;
+  color: #2b2d97;
+}
+
+.playground img {
+  transform: scale(0.6);
+  border-radius: 20px;
+}
+
+.pool {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.pool img {
+  transform: scale(0.6);
+  border-radius: 20px;
+}
+
+.activities p {
+  letter-spacing: 1px;
+  color: #000;
+
+}
+
+.vids-tit {
+  text-align: center;
+  font-size: 30px;
+  color: #2b2d97;
+}
+
+.videos .content {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.videos {
+  background-color: rgba(211, 211, 211, 0.5);
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.video {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #2b2d97;
+  min-height: 224px;
+  width: 300px;
+  transition: all 0.8s ease;
+}
+
+.video:hover {
+  transform: scale(1.04);
+}
+
+.vid-img img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.vid-info {
+  display: flex;
+  justify-content: center;
+}
+
+.vid-info a {
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  color: #2b2d97;
+  transition: all 0.8s ease;
+}
+
+.vid-info a:hover {
+  color: #575895;
+  font-size: 22px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: transparent;
+}
+
+phone-card {
+  text-align: center;
+}
+
+.phone-card .card {
+  background-color: #575895;
+  border: 2px solid #2b2d97;
+  min-height: 340px;
+  width: 380px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 30px;
+  transition: all 1s ease;
+}
+
+.phone-card .card:hover {
+  transform: scale(1.07);
+}
+
+.phn-tit {
+  width: 100%;
+  min-height: 100%;
+  border-radius: 10px;
+  background-color: #575895;
+}
+
+.phn-tit h3 {
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  padding-top: 4px;
+}
+
+.card p {
+  letter-spacing: 2px;
+  font-size: 20px;
+  padding: 15px;
+}
+
+footer {
+  padding: 15px;
+  background-color: #111236;
+  margin-top: 30px;
+}
+
+footer p {
+  color: white;
+  font-size: 13px;
+}
+
+footer p span {
+  color: #575895;
+  font-size: 25px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot a {
+  font-size: 20px;
+  color: #575895;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  transition: all 0.5s ease;
+  padding-right: 10px;
+}
+
+.foot a:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1023px) {
+  header {
+    padding: 5px;
+  }
+
+  .logo {
+    transform: scale(1.3);
+  }
+
+  nav a {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .text h3 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+  }
+
+  .AcademicTrack i {
+    font-size: 50px;
+    padding: 20px 20px;
+    padding-right: 20px;
+  }
+
+  .text p {
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+  }
+
+  .playground,
+  .pool {
+    direction: ltr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pool {
+    text-align: center;
+
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    font-size: 10px;
+  }
+}
