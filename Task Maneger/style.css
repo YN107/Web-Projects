@@ -1,0 +1,129 @@
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #334;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+  background-color: #0aaf78;
+  padding: 20px;
+}
+
+.add {
+  padding-top: 90px;
+}
+
+input {
+  width: 70%;
+  margin: auto;
+  display: block;
+  padding: 18px 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  direction: rtl;
+}
+
+input::placeholder {
+  font-size: 16px;
+  text-align: right;
+}
+
+.add-task {
+  display: block;
+  background-color: #0aaf78;
+  border: none;
+  outline: none;
+  padding: 20px 0px;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.tasks {
+  margin-top: 100px;
+}
+
+.box {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0px 20px;
+  direction: rtl;
+}
+
+.tasksTit {
+  font-size: 35px;
+  color: #0aaf78;
+  text-align: center;
+}
+
+.allTasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.allTasks h3 {
+  font-size: 25px;
+  
+}
+
+
+.del{
+    padding: 8px 18px;
+    background-color: #0aaf78;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    margin-bottom: 30px;
+    accent-color: #0aaf78; 
+}
+
+
